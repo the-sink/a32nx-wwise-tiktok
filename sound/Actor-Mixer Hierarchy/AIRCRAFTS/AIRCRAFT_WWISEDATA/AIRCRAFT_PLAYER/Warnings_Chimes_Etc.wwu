@@ -2261,9 +2261,19 @@
 									<Language>SFX</Language>
 									<AudioFile>ClearOfConflict.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="clear_of_conflict" ID="{FDE28A5D-B0B0-4DCD-90BD-3FF3D9F16E2B}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>clear_of_conflict.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="ClearOfConflict" ID="{B1765895-3801-4E8E-817B-1DB68D93A3A3}" Platform="Linked"/>
+								<ActiveSource Name="clear_of_conflict" ID="{FDE28A5D-B0B0-4DCD-90BD-3FF3D9F16E2B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="ClimbClimb" ID="{82FF3262-8A55-48D0-AF98-C8626C7E2536}" ShortID="349048167">
@@ -2286,9 +2296,24 @@
 									<Language>SFX</Language>
 									<AudioFile>ClimbClimb.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="climb_climb" ID="{49C472A8-9FD7-4C2E-B0B0-A6D39C64D1D6}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>climb_climb.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="ClimbClimb" ID="{FEA25EBC-77C7-4C10-9B71-0B61F2CE2BF5}" Platform="Linked"/>
+								<ActiveSource Name="climb_climb" ID="{49C472A8-9FD7-4C2E-B0B0-A6D39C64D1D6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="ClimbClimbNow" ID="{075FAA48-BDEC-48E7-BA80-7D632CC6ADD0}" ShortID="290737561">
@@ -2441,9 +2466,24 @@
 									<Language>SFX</Language>
 									<AudioFile>TrafficTraffic.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="climb_now" ID="{C842D8B6-F3CF-4FF7-8178-AAE873E60B7E}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>climb_now.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="ClimbClimbNow" ID="{D0B5FF1B-DC31-4DA9-ACAE-166AFF08D727}" Platform="Linked"/>
+								<ActiveSource Name="climb_now" ID="{C842D8B6-F3CF-4FF7-8178-AAE873E60B7E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="ClimbCrossingClimb" ID="{48699F77-B42C-4329-BAE0-29699F01827B}" ShortID="836053590">
@@ -2466,9 +2506,24 @@
 									<Language>SFX</Language>
 									<AudioFile>ClimbCrossingClimb.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="climb_crossing_climb" ID="{76A2BEAD-A177-497F-AC6C-DAD9DD10D813}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>climb_crossing_climb.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="ClimbCrossingClimb" ID="{1B4FEAE9-982A-429A-AA7F-998D6029FCD1}" Platform="Linked"/>
+								<ActiveSource Name="climb_crossing_climb" ID="{76A2BEAD-A177-497F-AC6C-DAD9DD10D813}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="DescendCrossingDescend" ID="{3E477341-903C-484C-8DFC-B8C7AAF3CFE5}" ShortID="508960114">
@@ -2491,9 +2546,24 @@
 									<Language>SFX</Language>
 									<AudioFile>DescendCrossingDescend.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="descend_crossing_descend" ID="{638FCD01-42A8-457B-9A47-61DC291EA028}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>descend_crossing_descend.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="DescendCrossingDescend" ID="{EA5A229E-15E4-4137-AC33-54E6BF7722EC}" Platform="Linked"/>
+								<ActiveSource Name="descend_crossing_descend" ID="{638FCD01-42A8-457B-9A47-61DC291EA028}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="DescendDescend" ID="{DC3EA57B-B192-4312-829F-DA45841A2EB7}" ShortID="294186190">
@@ -2516,9 +2586,24 @@
 									<Language>SFX</Language>
 									<AudioFile>DescendDescend.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="descend_descend" ID="{38F0B03C-14AF-44F2-8106-2EDBA45C47F7}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>descend_descend.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="DescendDescend" ID="{7ADAD78F-86DD-4AA7-9383-4086BF67AB38}" Platform="Linked"/>
+								<ActiveSource Name="descend_descend" ID="{38F0B03C-14AF-44F2-8106-2EDBA45C47F7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="DescendDescendNow" ID="{99C35A75-FE76-4609-961D-DAC55EAAEEBF}" ShortID="246999026">
@@ -2541,9 +2626,24 @@
 									<Language>SFX</Language>
 									<AudioFile>DescendDescendNow.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="descend_now" ID="{BFFFC1AF-84AC-4758-B326-7B69DEE64CCA}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>descend_now.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="DescendDescendNow" ID="{F2EF42A0-6DF6-4C21-B13F-B3CBEC0F2C4A}" Platform="Linked"/>
+								<ActiveSource Name="descend_now" ID="{BFFFC1AF-84AC-4758-B326-7B69DEE64CCA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="IncreaseClimb" ID="{A33E9CFA-15AF-4205-A7BF-1687265A8070}" ShortID="256385046">
@@ -2566,9 +2666,24 @@
 									<Language>SFX</Language>
 									<AudioFile>IncreaseClimb.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="increase_climb" ID="{EDFCED4D-6845-4697-8D96-CBE3BF78D336}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>increase_climb.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="IncreaseClimb" ID="{7ADB8561-ABDA-48AC-B4D8-9F6C304BFA14}" Platform="Linked"/>
+								<ActiveSource Name="increase_climb" ID="{EDFCED4D-6845-4697-8D96-CBE3BF78D336}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="IncreaseDescent" ID="{29F888D4-1012-40AE-AA17-7C7017BB8811}" ShortID="195935613">
@@ -2591,9 +2706,24 @@
 									<Language>SFX</Language>
 									<AudioFile>IncreaseDescent.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="increase_descent" ID="{2CD190A4-0159-4D9C-9CBD-910060C1E60A}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>increase_descent.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="IncreaseDescent" ID="{AEBBD58C-084F-4E2E-9E15-1B16CACB7775}" Platform="Linked"/>
+								<ActiveSource Name="increase_descent" ID="{2CD190A4-0159-4D9C-9CBD-910060C1E60A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="LevelOffLevelOff" ID="{63CA1CB4-CE25-49FB-8303-8B11634170A8}" ShortID="724027959">
@@ -2652,9 +2782,19 @@
 									<Language>SFX</Language>
 									<AudioFile>LevelOffLevelOff.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="level_off" ID="{EBF32B69-4A11-4036-9F79-7F2422DBE208}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>level_off.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="LevelOffLevelOff" ID="{22C03F0D-1F97-44A4-916A-772A4AA3CDF1}" Platform="Linked"/>
+								<ActiveSource Name="level_off" ID="{EBF32B69-4A11-4036-9F79-7F2422DBE208}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MaintainVSCrossingMaintain" ID="{B8A41368-8351-4B09-B6A6-73747B5AD8F5}" ShortID="653420125">
@@ -2677,9 +2817,24 @@
 									<Language>SFX</Language>
 									<AudioFile>MaintainVSCrossingMaintain.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="maintain_vertical_speed_crossing" ID="{3D6D5AFC-DD41-488A-84C9-45F959F37BDB}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>maintain_vertical_speed_crossing.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="MaintainVSCrossingMaintain" ID="{4289212F-4C79-4E2C-8BA6-1966E651A9B8}" Platform="Linked"/>
+								<ActiveSource Name="maintain_vertical_speed_crossing" ID="{3D6D5AFC-DD41-488A-84C9-45F959F37BDB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MaintainVSMaintain" ID="{0A84A387-36C9-48C1-9E7B-9DEE2BADE501}" ShortID="932270315">
@@ -2702,9 +2857,24 @@
 									<Language>SFX</Language>
 									<AudioFile>MaintainVSMaintain.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="maintain_vertical_speed" ID="{A7087810-782D-4539-ACA8-C98C71293D3A}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>maintain_vertical_speed.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="MaintainVSMaintain" ID="{D4E155F7-A4A6-4401-A90A-2A56602F262F}" Platform="Linked"/>
+								<ActiveSource Name="maintain_vertical_speed" ID="{A7087810-782D-4539-ACA8-C98C71293D3A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MonitorVS" ID="{E9B98C42-D322-4EF4-A8D3-564D8E519156}" ShortID="172886832">
@@ -2727,9 +2897,24 @@
 									<Language>SFX</Language>
 									<AudioFile>MonitorVS.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="monitor_vertical_speed" ID="{A65D1B79-3890-4356-9AB2-2D6D5E5FA557}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>monitor_vertical_speed.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="MonitorVS" ID="{A854BDF3-D22E-44DB-88B0-7ABBF5AB074E}" Platform="Linked"/>
+								<ActiveSource Name="monitor_vertical_speed" ID="{A65D1B79-3890-4356-9AB2-2D6D5E5FA557}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="TrafficTraffic" ID="{681DD8DD-C53F-4707-BEB8-13F36372DA56}" ShortID="136760150">
@@ -2752,9 +2937,24 @@
 									<Language>SFX</Language>
 									<AudioFile>TrafficTraffic.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="traffic_traffic" ID="{A383FC8B-44DF-46ED-8C07-4B77543D6F01}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>traffic_traffic.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="TrafficTraffic" ID="{3243A663-AE36-4FF8-A5CC-9E266F94BCF3}" Platform="Linked"/>
+								<ActiveSource Name="traffic_traffic" ID="{A383FC8B-44DF-46ED-8C07-4B77543D6F01}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="TCAStestOK" ID="{FAD82C7E-79F7-45D3-9D4D-3F1E9BA8E4B6}" ShortID="550069838">
@@ -2787,9 +2987,24 @@
 									<Language>SFX</Language>
 									<AudioFile>Test.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="tcas_ok" ID="{23DCD0E8-B6A7-4C5A-83DA-D9F8A04BD9C3}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>tcas_ok.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Test" ID="{8647F509-8EED-4F2B-A4AC-54D22D012536}" Platform="Linked"/>
+								<ActiveSource Name="tcas_ok" ID="{23DCD0E8-B6A7-4C5A-83DA-D9F8A04BD9C3}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -3089,6 +3304,21 @@
 									<Language>SFX</Language>
 									<AudioFile>SVCbuswhine.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="too_low_flaps" ID="{655B8EEE-7381-4B4E-8D64-A52C204059A1}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>too_low_flaps.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -3112,7 +3342,7 @@
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="too-low-flaps" ID="{642F7829-17D9-4B54-BD48-322C3D316A87}" Platform="Linked"/>
+								<ActiveSource Name="too_low_flaps" ID="{655B8EEE-7381-4B4E-8D64-A52C204059A1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="too-low-gear" ID="{011D87A3-5587-4783-9E25-B1B0B86978EF}" ShortID="662504413">
@@ -3175,6 +3405,21 @@
 									<Language>SFX</Language>
 									<AudioFile>too-low-terrain.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="too_low_gear" ID="{B6F88F2F-B575-42BF-8D55-08CA0701EDAF}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>too_low_gear.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -3198,7 +3443,7 @@
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="too-low-gear" ID="{E9F2D0F9-6C13-4557-888D-EC3F5430042B}" Platform="Linked"/>
+								<ActiveSource Name="too_low_gear" ID="{B6F88F2F-B575-42BF-8D55-08CA0701EDAF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="too-low-terrain" ID="{E117A05A-EC33-469C-B6BE-3917C6BDA7DB}" ShortID="278226210">
@@ -3259,6 +3504,21 @@
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>triple_clic.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="too_low_terrain" ID="{F490255A-BE18-400B-81D6-87D511FDDE0D}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>too_low_terrain.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<StateInfo>
@@ -3364,9 +3624,24 @@
 									<Language>SFX</Language>
 									<AudioFile>sinkrate.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="sink_rate" ID="{81007849-03E3-40BD-80A4-37804503A19E}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>sink_rate.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="sinkrate" ID="{D75DEEE1-DD24-419E-8D2A-5D83C512D511}" Platform="Linked"/>
+								<ActiveSource Name="sink_rate" ID="{81007849-03E3-40BD-80A4-37804503A19E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="GPWS_short_test" ID="{381FF7AA-35E0-49F3-8724-2CF7D0C0AF7C}" ShortID="446756558">
@@ -3707,9 +3982,24 @@
 									<Language>SFX</Language>
 									<AudioFile>stall.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="stall_warning" ID="{65A5AC7E-967A-43B2-8AAB-EF97680F8AD8}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>stall_warning.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="stall" ID="{FB2491BA-30AD-45C6-88F5-4DD58488C997}" Platform="Linked"/>
+								<ActiveSource Name="stall_warning" ID="{65A5AC7E-967A-43B2-8AAB-EF97680F8AD8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="apdisengage" ID="{C34D1E44-70C4-44AC-A596-CA5D3A6F5181}" ShortID="779760105">
