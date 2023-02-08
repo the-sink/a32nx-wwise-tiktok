@@ -3314,9 +3314,24 @@
 									<Language>SFX</Language>
 									<AudioFile>dontsink.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="dont_sink" ID="{E55689D1-9F39-4BC9-9E35-69D983612749}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>dont_sink.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="dontsink" ID="{EDEF987D-2F7C-427F-B392-D9E07153245F}" Platform="Linked"/>
+								<ActiveSource Name="dont_sink" ID="{E55689D1-9F39-4BC9-9E35-69D983612749}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="sinkrate" ID="{7858060C-A452-4D48-9F1D-65D58E572BF1}" ShortID="744111687">
@@ -3644,9 +3659,24 @@
 									<Language>SFX</Language>
 									<AudioFile>pullup.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="pull_up" ID="{0F48DB20-0233-47AA-AB2C-A64702603E99}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>pull_up.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="pullup" ID="{620FCD50-3BB1-4147-951F-0556CDFC2695}" Platform="Linked"/>
+								<ActiveSource Name="pull_up" ID="{0F48DB20-0233-47AA-AB2C-A64702603E99}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="stall" ID="{B769975B-E1D7-47E2-A4DE-92E5F6373C4F}" ShortID="414880729">
